@@ -2,7 +2,7 @@
 set fish_greeting
 
 # Adding Ruby to the PATH variable
-set PATH ~/.gem/ruby/2.7.0/bin $PATH
+set PATH ~/.local/share/gem/ruby/3.0.0/bin $PATH
 
 # Adding Go to the PATH variable
 set GOPATH ~/go
