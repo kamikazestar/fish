@@ -1,3 +1,11 @@
+# Use Exa instead of the ls if present in OS
+if type -q exa
+  alias ll "exa -l -g --icons"
+  alias lla "ll -a"
+  alias llt "ll --tree --level=2"
+  alias llta "llt - a"
+end
+
 # Disable Fish greeting
 set fish_greeting
 
