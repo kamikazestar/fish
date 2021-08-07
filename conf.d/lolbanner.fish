@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function lolbanner
   echo
   if test -f ~/workspace/repos/figlet-fonts/3d.flf
@@ -7,5 +6,6 @@ function lolbanner
     figlet -c -f ~/.local/share/fonts/figlet-fonts/3d.flf $argv | lolcat
   else
     echo "Figlet-fonts not found!"
+  end
   echo
 end
