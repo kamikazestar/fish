@@ -1,5 +1,4 @@
 function __z_complete -d "add completions"
-
     complete -c $Z_CMD -a "(__z -l | string replace -r '^\\S*\\s*' '')" -f -k
     complete -c $ZO_CMD -a "(__z -l | string replace -r '^\\S*\\s*' '')" -f -k
 
