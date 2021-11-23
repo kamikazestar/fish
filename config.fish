@@ -9,14 +9,14 @@ end
 set fish_greeting
 
 # Ruby
-set PATH ~/.gem/ruby/2.7.0/bin $PATH
+set PATH $HOME/.gem/ruby/2.7.0/bin $PATH
 
 # Golang
-set GOPATH ~/go
-set PATH ~/go/bin $PATH
+set GOPATH $HOME/go
+set PATH $HOME/go/bin $PATH
 
 # .bin
-set PATH ~/.bin $PATH
+set PATH $HOME/.bin $PATH
 
 # Adding Snap bin dir to the PATH variable to be able to run packages installed by Snap
 set PATH /var/lib/snapd/snap/bin $PATH
