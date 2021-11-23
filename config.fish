@@ -25,3 +25,5 @@ set PATH /var/lib/snapd/snap/bin $PATH
 set -g fish_user_paths "/usr/local/opt/icu4c/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/icu4c/sbin" $fish_user_paths
 
+# Set editor
+set EDITOR nvim
