@@ -27,3 +27,6 @@ set -g fish_user_paths "/usr/local/opt/icu4c/sbin" $fish_user_paths
 
 # Set editor
 set EDITOR nvim
+
+# Enable Starship prompt
+starship init fish | source
