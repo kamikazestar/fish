@@ -18,6 +18,9 @@ set PATH $HOME/go/bin $PATH
 # bin
 set PATH $HOME/bin $PATH
 
+# Pulumi
+set PATH $HOME/.pulumi/bin $PATH
+
 # Adding Snap bin dir to the PATH variable to be able to run packages installed by Snap
 set PATH /var/lib/snapd/snap/bin $PATH
 
