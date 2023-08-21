@@ -12,15 +12,6 @@ set fish_greeting
 set GOPATH $HOME/go
 set PATH $HOME/go/bin $PATH
 
-# bin
-set PATH $HOME/bin $PATH
-
-# Pulumi
-set PATH $HOME/.pulumi/bin $PATH
-
-# Adding Snap bin dir to the PATH variable to be able to run packages installed by Snap
-set PATH /var/lib/snapd/snap/bin $PATH
-
 # User paths
 set -g fish_user_paths "/usr/local/opt/icu4c/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/icu4c/sbin" $fish_user_paths
