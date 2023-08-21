@@ -8,9 +8,6 @@ end
 # Fish greeting
 set fish_greeting
 
-# Ruby
-set PATH $HOME/.gem/ruby/2.7.0/bin $PATH
-
 # Golang
 set GOPATH $HOME/go
 set PATH $HOME/go/bin $PATH
