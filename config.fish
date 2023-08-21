@@ -5,7 +5,7 @@ if type -q exa
   alias llt "ll --tree --level=2"
 end
 
-# Fish greeting
+# Disable Fish greeting
 set fish_greeting
 
 # Golang
