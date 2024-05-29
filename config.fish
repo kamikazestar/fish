@@ -1,8 +1,8 @@
 # Exa
-if type -q exa
-  alias ll "exa -l -g --icons"
-  alias lla "ll -a"
-  alias llt "ll --tree --level=2"
+if type -q eza
+  alias ll "eza -l -g --icons --git"
+  alias la "ll -a"
+  alias lt "ll --tree --level=2"
 end
 
 # Disable Fish greeting
