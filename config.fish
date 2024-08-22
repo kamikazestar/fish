@@ -9,8 +9,7 @@ end
 set fish_greeting
 
 # Golang
-set GOPATH $HOME/go
-set PATH $HOME/go/bin $PATH
+if [ -d $HOME/go ]; set GOPATH $HOME/go; set PATH $HOME/go/bin $PATH; end
 
 # User paths
 set -g fish_user_paths "/usr/local/opt/icu4c/bin" $fish_user_paths
