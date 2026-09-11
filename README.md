@@ -49,9 +49,24 @@ If you'd like to use or adapt this configuration:
 ## Structure
 
 - `config.fish` — main configuration file
+- `conf.d/corne-key-bindings.fish` — Corne-oriented interactive keybindings
 - `functions/` — custom functions
 - `completions/` — completions
 - `fish_plugins` — list of Fisher-managed plugins
+
+## Keybindings
+
+The default Fish keybindings remain unchanged. When Fish is interactive, the
+following `Alt` bindings provide cross-hand shortcuts on a Corne split
+keyboard while also working on a conventional laptop keyboard:
+
+| Action | Binding |
+| --- | --- |
+| Search command history with fzf | `Alt-r` |
+| Search changed files in the current Git repository with fzf | `Alt-g` |
+
+These bindings require the Fisher-managed `fzf.fish` plugin. Fish's native
+`Alt-o` current-file preview is deliberately preserved.
 
 ## Related
 
